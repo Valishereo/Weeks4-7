@@ -30,5 +30,8 @@ public class Appear : MonoBehaviour
         }
 
     }
-
+    public GameObject GetTopping() //so I can access it in other scripts
+    {
+        return spawnedTopping; 
+    }
 }
